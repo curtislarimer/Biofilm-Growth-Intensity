@@ -1,6 +1,7 @@
 % BGI: measures Biofilm growth intensity from a group of images in a
 % directory
-% Written by Curtis Larimer
+% Written by Curtis Larimer for Pacific Northwest National Laboratory
+% Direct questions to curtis.larimer@pnnl.gov
 function BGIbatch
 close all
 % clear all

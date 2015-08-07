@@ -307,24 +307,29 @@ N = 10;
     clearvars a
      % Creates a BGI figure with enhanced images from each color channel and gray
     figure103 = figure(103);
-    set(figure103,'units','normalized','position',[.5 .05 .45 .4])
-    subplot(2,2,1), imagesc(GrayscaleImage), title(BGIstring)
+    set(figure103,'units','normalized','position',[.05 .5 .45 .4])
+    imagesc(GrayscaleImage), title(BGIstring)
     axis off
     colormap(clrmapgray)
-    freezeColors
-    subplot(2,2,2), imagesc(GrayscaleImagered), title(redBGIstring)
+        saveas(gcf,strcat(imagename,'BGIgray'),'tif'); %saves figure to a file
+    figure104 = figure(104);
+    set(figure104,'units','normalized','position',[.5 .5 .45 .4])
+    imagesc(GrayscaleImagered), title(redBGIstring)
     axis off
     colormap(clrmapred)
-    freezeColors
-    subplot(2,2,3), imagesc(GrayscaleImagegreen), title(greenBGIstring)
+        saveas(gcf,strcat(imagename,'BGIred'),'tif'); %saves figure to a file
+    figure105 = figure(105);
+    set(figure105,'units','normalized','position',[.05 .05 .45 .4])
+    imagesc(GrayscaleImagegreen), title(greenBGIstring)
     axis off
     colormap(clrmapgreen)
-    freezeColors
-    subplot(2,2,4), imagesc(GrayscaleImageblue), title(blueBGIstring)
+        saveas(gcf,strcat(imagename,'BGIgreen'),'tif'); %saves figure to a file
+    figure106 = figure(106);
+    set(figure106,'units','normalized','position',[.5 .05 .45 .4])
+    imagesc(GrayscaleImageblue), title(blueBGIstring)
     axis off
     colormap(clrmapblue)
-    freezeColors
-    saveas(gcf,strcat(imagename,'BGI'),'tif'); %saves figure to a file
+        saveas(gcf,strcat(imagename,'BGIblue'),'tif'); %saves figure to a file
         
     
     
