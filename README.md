@@ -1,7 +1,7 @@
 # Biofilm-Growth-Intensity
 Biofilm Growth Intensity Analyzer
 
-This is an image analysis program developed at Pacific Northwest National Laboratory by Curtis Larimer, Eric Winder, Robert Jeters, Ian Nettleship, R. Shane Addleman, and George Bonheyo
+This is an image analysis program developed at Pacific Northwest National Laboratory by Curtis Larimer, Matt Prowant, Eric Winder, Robert Jeters, Ian Nettleship, R. Shane Addleman, and George Bonheyo
 
 Contact curtis.larimer@pnnl.gov with questions
 
