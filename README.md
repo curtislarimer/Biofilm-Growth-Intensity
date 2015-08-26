@@ -1,5 +1,5 @@
 # Biofilm-Growth-Intensity
-Matlab scripts for Biofilm Growth Intensity
+Biofilm Growth Intensity Analyzer
 
 This is an image analysis program developed at Pacific Northwest National Laboratory by Curtis Larimer, Eric Winder, Robert Jeters, Ian Nettleship, R. Shane Addleman, and George Bonheyo
 
@@ -15,5 +15,3 @@ Disclaimer
 This program is primarily designed to run within the Matlab runtime, which is available for Windows, Mac, and Linux. Please use this program at your own risk. This material was prepared as an account of work sponsored by an agency of the United States Government. Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness or any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights.
 
 This software was developed at Pacific Northwest National Laboratories (PNNL), which is operated for the US Department of Energy by Battelle Memorial Institute under contract DE AC06-76RLO 1830. The work was supported by the Chemical Imaging Initiative-Laboratory Directed Research and Development (CII-LDRD) program. A portion of the work presented here was also supported by the Wind and Water Power Program under the Office of Energy Efficiency and Renewable Energy, US Department of Energy. The work was also supported by a grant from the Intelligence Community Postdoctoral Research Fellowship Program.  All statements of fact, opinion, or analysis expressed are those of the author and do not reflect the official positions or views of the Intelligence Community or any other U.S. Government agency.  Nothing in the contents should be construed as asserting or implying U.S. Government authentication of information or Intelligence Community endorsement of the author’s views.
-
-Please direct questions or comments to Curtis.Larimer@pnnl.gov
