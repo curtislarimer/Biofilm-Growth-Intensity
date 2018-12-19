@@ -5,6 +5,10 @@ This is an image analysis program developed at Pacific Northwest National Labora
 
 Contact curtis.larimer@pnnl.gov with questions
 
+BGI Analyzer requires Matlab Runtime 2015a (8.5) which is available for free here: 
+https://www.mathworks.com/products/compiler/matlab-runtime.html
+NOTE: BGI will not work with any other version of Matlab Runtime.
+
 Brief description of Biofilm Growth Intensity program - 
 
 The accumulation of bacteria in surface attached biofilms, or biofouling, can be detrimental to human health, dental hygiene, and many industrial processes. A critical need in identifying and preventing the deleterious effects of biofilms is the ability to observe and quantify their development. Analytical methods capable of assessing early stage fouling are cumbersome or lab-confined, subjective, and qualitative. The aim of this program is to use image analysis to enhance contrast of early stage biofouling. This program executes an algorithm developed to objectively and quantitatively measure surface accumulation of Pseudomonas putida from photographs. This simple method for early stage biofilm detection enables quantifiable measurement of surface fouling and is flexible enough to be applied from the laboratory to the field. 
